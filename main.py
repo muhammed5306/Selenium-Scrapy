@@ -50,7 +50,7 @@ x_coordinate = (screen_width/2) - (width/2)
 y_coordinate = (screen_height/2) - (height/2)
 
 root.geometry("%dx%d+%d+%d" % (width,height,x_coordinate,y_coordinate))
-root.title("MSI FORM")
+root.title("FIND LINKS")
 
 
 head = Label(text = "FIND LINKS", bg = "#003399", fg = "black", width = "250", height = "2")
