@@ -43,7 +43,11 @@ class CyberSpiderClass(scrapy.Spider):
             content = (content_div.xpath("//*[@trbidi='on']/text()").extract())
             yield{
                     
-                "title": title,"date": date,"author" : author,"content": content,"img_link": img_link
+                "title": title,
+                "date": date,
+                "author" : author,
+                "content": content,
+                "img_link": img_link
                 
                 
                     
